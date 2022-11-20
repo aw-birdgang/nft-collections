@@ -19,6 +19,7 @@ const Home: NextPage = () => {
                     action={(contract) => {
                         contract.erc721.claim(1);
                     }}
+                    colorMode={"light"} accentColor={"#9702c4"}
                 >
                     Claim NFT Collection
                 </Web3Button>
